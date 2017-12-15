@@ -29,7 +29,7 @@
 #include "backends/meta-logical-monitor.h"
 #include "backends/meta-monitor.h"
 #include "clutter/clutter.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 struct _MetaScreenCastMonitorStreamSrc
 {

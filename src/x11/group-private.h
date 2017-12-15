@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter window group private header */
+/* Ukwm window group private header */
 
 /*
  * Copyright (C) 2002 Red Hat Inc.

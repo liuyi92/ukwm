@@ -29,7 +29,7 @@
 #include "backends/meta-screen-cast-monitor-stream.h"
 #include "backends/meta-screen-cast-stream.h"
 
-#define META_SCREEN_CAST_SESSION_DBUS_PATH "/org/gnome/Mutter/ScreenCast/Session"
+#define META_SCREEN_CAST_SESSION_DBUS_PATH "/org/ukui/ukwm/ScreenCast/Session"
 
 struct _MetaScreenCastSession
 {

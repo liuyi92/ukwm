@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter window deletion */
+/* Ukwm window deletion */
 
 /*
  * Copyright (C) 2001, 2002 Havoc Pennington

@@ -28,7 +28,7 @@
 #include <glib-object.h>
 
 #include "cogl/cogl.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 #include "backends/meta-monitor-manager-private.h"
 #include "backends/meta-renderer-view.h"
 

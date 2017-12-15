@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter X error handling */
+/* Ukwm X error handling */
 
 /*
  * Copyright (C) 2001 Havoc Pennington

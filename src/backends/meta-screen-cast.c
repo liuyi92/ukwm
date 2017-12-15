@@ -30,8 +30,8 @@
 #include "backends/meta-screen-cast-session.h"
 #include "backends/meta-remote-desktop-session.h"
 
-#define META_SCREEN_CAST_DBUS_SERVICE "org.gnome.Mutter.ScreenCast"
-#define META_SCREEN_CAST_DBUS_PATH "/org/gnome/Mutter/ScreenCast"
+#define META_SCREEN_CAST_DBUS_SERVICE "org.ukui.ukwm.ScreenCast"
+#define META_SCREEN_CAST_DBUS_PATH "/org/ukui/ukwm/ScreenCast"
 
 struct _MetaScreenCast
 {

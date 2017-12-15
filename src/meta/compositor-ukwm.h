@@ -20,8 +20,8 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef MUTTER_H_
-#define MUTTER_H_
+#ifndef UKWM_H_
+#define UKWM_H_
 
 #include <clutter/clutter.h>
 #include <X11/Xlib.h>

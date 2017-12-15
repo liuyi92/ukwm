@@ -28,7 +28,7 @@
 #include <meta/meta-monitor-manager.h>
 #include <meta/util.h>
 #include "backends/meta-backend-private.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 struct _MetaOverlay {
   gboolean enabled;

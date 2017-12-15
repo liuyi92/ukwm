@@ -131,7 +131,7 @@ gboolean                _clutter_backend_translate_event                (Clutter
                                                                          gpointer                native,
                                                                          ClutterEvent           *event);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 void                    _clutter_backend_add_event_translator           (ClutterBackend         *backend,
                                                                          ClutterEventTranslator *translator);
 
@@ -146,7 +146,7 @@ gint32                  _clutter_backend_get_units_serial               (Clutter
 
 PangoDirection          _clutter_backend_get_keymap_direction           (ClutterBackend         *backend);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 void                    _clutter_backend_reset_cogl_framebuffer         (ClutterBackend         *backend);
 
 void                    clutter_set_allowed_drivers                     (const char             *drivers);

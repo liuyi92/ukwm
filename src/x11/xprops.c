@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter X property convenience routines */
+/* Ukwm X property convenience routines */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
@@ -87,7 +87,7 @@ from The Open Group.
 #include <meta/errors.h>
 #include "util-private.h"
 #include "ui.h"
-#include "mutter-Xatomtype.h"
+#include "ukwm-Xatomtype.h"
 #include "window-private.h"
 
 #include <X11/Xatom.h>

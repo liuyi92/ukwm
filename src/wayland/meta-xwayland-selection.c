@@ -78,7 +78,7 @@ typedef struct {
 typedef struct {
   MetaSelectionBridge selection;
   MetaWaylandSurface *focus_surface;
-  Window dnd_window; /* Mutter-internal window, acts as peer on wayland drop sites */
+  Window dnd_window; /* Ukwm-internal window, acts as peer on wayland drop sites */
   Window dnd_dest; /* X11 drag dest window */
   guint32 last_motion_time;
 } MetaDndBridge;

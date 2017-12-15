@@ -42,7 +42,7 @@
 /* Double check that config.h has been included */
 #if (!defined (PACKAGE_NAME) && \
      !defined (_COGL_IN_TEST_BITMASK) && \
-     !defined(COGL_ENABLE_MUTTER_API))
+     !defined(COGL_ENABLE_UKWM_API))
 #error "cogl-config.h must be included before including cogl-util.h"
 #endif
 

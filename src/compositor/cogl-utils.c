@@ -30,7 +30,7 @@
  *
  * Creates a pipeline with a single layer. Using a common template
  * makes it easier for Cogl to share a shader for different uses in
- * Mutter.
+ * Ukwm.
  *
  * Return value: (transfer full): a newly created #CoglPipeline
  */

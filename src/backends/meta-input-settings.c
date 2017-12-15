@@ -22,7 +22,7 @@
 /**
  * SECTION:input-settings
  * @title: MetaInputSettings
- * @short_description: Mutter input device configuration
+ * @short_description: Ukwm input device configuration
  */
 
 #include "config.h"
@@ -1317,7 +1317,7 @@ check_add_mappable_device (MetaInputSettings  *input_settings,
        device_type == CLUTTER_PEN_DEVICE ||
        device_type == CLUTTER_ERASER_DEVICE ||
        device_type == CLUTTER_PAD_DEVICE) &&
-      g_getenv ("MUTTER_DISABLE_WACOM_CONFIGURATION") != NULL)
+      g_getenv ("UKWM_DISABLE_WACOM_CONFIGURATION") != NULL)
     return FALSE;
 
   settings = lookup_device_settings (device);

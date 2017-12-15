@@ -8,7 +8,7 @@
  * multiple monitors, including reading the current configuration
  * and available hardware, and applying it.
  *
- * This interface is private to mutter, API users should look
+ * This interface is private to ukwm, API users should look
  * at MetaScreen instead.
  */
 
@@ -78,7 +78,7 @@ typedef enum _MetaMonitorManagerCapability
   META_MONITOR_MANAGER_CAPABILITY_GLOBAL_SCALE_REQUIRED = (1 << 2)
 } MetaMonitorManagerCapability;
 
-/* Equivalent to the 'method' enum in org.gnome.Mutter.DisplayConfig */
+/* Equivalent to the 'method' enum in org.ukui.ukwm.DisplayConfig */
 typedef enum _MetaMonitorsConfigMethod
 {
   META_MONITORS_CONFIG_METHOD_VERIFY = 0,
@@ -86,7 +86,7 @@ typedef enum _MetaMonitorsConfigMethod
   META_MONITORS_CONFIG_METHOD_PERSISTENT = 2
 } MetaMonitorsConfigMethod;
 
-/* Equivalent to the 'layout-mode' enum in org.gnome.Mutter.DisplayConfig */
+/* Equivalent to the 'layout-mode' enum in org.ukui.ukwm.DisplayConfig */
 typedef enum _MetaLogicalMonitorLayoutMode
 {
   META_LOGICAL_MONITOR_LAYOUT_MODE_LOGICAL = 1,

@@ -36,7 +36,7 @@
 #include "meta/errors.h"
 #include "meta-dbus-remote-desktop.h"
 
-#define META_REMOTE_DESKTOP_SESSION_DBUS_PATH "/org/gnome/Mutter/RemoteDesktop/Session"
+#define META_REMOTE_DESKTOP_SESSION_DBUS_PATH "/org/ukui/ukwm/RemoteDesktop/Session"
 
 struct _MetaRemoteDesktopSession
 {

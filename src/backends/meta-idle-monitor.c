@@ -23,7 +23,7 @@
 /**
  * SECTION:idle-monitor
  * @title: MetaIdleMonitor
- * @short_description: Mutter idle counter (similar to X's IDLETIME)
+ * @short_description: Ukwm idle counter (similar to X's IDLETIME)
  */
 
 #include "config.h"

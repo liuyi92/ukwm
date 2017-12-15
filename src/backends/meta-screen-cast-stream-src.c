@@ -35,7 +35,7 @@
 #include <sys/mman.h>
 
 #include "backends/meta-screen-cast-stream.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 #include "core/meta-fraction.h"
 #include "meta/boxes.h"
 

@@ -31,7 +31,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-/* This is copied from GTK+ and modified to work with mutter's
+/* This is copied from GTK+ and modified to work with ukwm's
  * internal structures. Originating code comes from gtk/gtkaccelgroup.c
  */
 

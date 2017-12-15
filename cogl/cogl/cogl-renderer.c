@@ -41,7 +41,7 @@
 #include "cogl-object.h"
 #include "cogl-context-private.h"
 #include "cogl-util-gl-private.h"
-#include "cogl-mutter.h"
+#include "cogl-ukwm.h"
 
 #include "cogl-renderer.h"
 #include "cogl-renderer-private.h"

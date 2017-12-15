@@ -40,8 +40,8 @@
 #include "meta/errors.h"
 #include "meta/meta-backend.h"
 
-#define META_REMOTE_DESKTOP_DBUS_SERVICE "org.gnome.Mutter.RemoteDesktop"
-#define META_REMOTE_DESKTOP_DBUS_PATH "/org/gnome/Mutter/RemoteDesktop"
+#define META_REMOTE_DESKTOP_DBUS_SERVICE "org.ukui.ukwm.RemoteDesktop"
+#define META_REMOTE_DESKTOP_DBUS_PATH "/org/ukui/ukwm/RemoteDesktop"
 
 struct _MetaRemoteDesktop
 {

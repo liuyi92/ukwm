@@ -24,7 +24,7 @@
 /*
  * \file atomnames.h  A list of atom names.
  *
- * This is a list of the names of all the X atoms that Mutter uses.
+ * This is a list of the names of all the X atoms that Ukwm uses.
  * Each is wrapped in a macro "item()" which is undefined here; the
  * idea is that when you need to make a big list of all the X atoms,
  * you can define item(), include this file, and then undefine it
@@ -52,7 +52,7 @@ item(WM_WINDOW_ROLE)
 item(UTF8_STRING)
 item(WM_ICON_SIZE)
 item(_KWM_WIN_ICON)
-item(_MUTTER_HINTS)
+item(_UKWM_HINTS)
 item(_GTK_THEME_VARIANT)
 item(_GTK_HIDE_TITLEBAR_WHEN_MAXIMIZED)
 item(_GTK_APPLICATION_ID)
@@ -68,10 +68,10 @@ item(_GNOME_WM_KEYBINDINGS)
 item(_GNOME_PANEL_ACTION)
 item(_GNOME_PANEL_ACTION_MAIN_MENU)
 item(_GNOME_PANEL_ACTION_RUN_DIALOG)
-item(_MUTTER_TIMESTAMP_PING)
-item(_MUTTER_FOCUS_SET)
-item(_MUTTER_SENTINEL)
-item(_MUTTER_VERSION)
+item(_UKWM_TIMESTAMP_PING)
+item(_UKWM_FOCUS_SET)
+item(_UKWM_SENTINEL)
+item(_UKWM_VERSION)
 item(WM_CLIENT_MACHINE)
 item(MANAGER)
 item(TARGETS)

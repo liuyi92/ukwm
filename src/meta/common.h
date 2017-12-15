@@ -36,7 +36,7 @@
 /**
  * SECTION:common
  * @Title: Common
- * @Short_Description: Mutter common types
+ * @Short_Description: Ukwm common types
  */
 
 /* This is set in stone and also hard-coded in GDK. */
@@ -499,7 +499,7 @@ void meta_frame_borders_clear (MetaFrameBorders *self);
 /* ==== Anything below here can be starved arbitrarily ==== */
 
 /* G_PRIORITY_DEFAULT_IDLE:
- *  Mutter plugin unloading
+ *  Ukwm plugin unloading
  */
 
 #define META_PRIORITY_PREFS_NOTIFY   (G_PRIORITY_DEFAULT_IDLE + 10)

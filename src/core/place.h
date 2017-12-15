@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter window placement */
+/* Ukwm window placement */
 
 /*
  * Copyright (C) 2001 Havoc Pennington

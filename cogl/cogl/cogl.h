@@ -79,7 +79,7 @@
 #endif
 
 /* It would be good to move these casts up into 1.x only api if we can
- * update Clutter, Mutter and GnomeShell to avoid redundant casts when
+ * update Clutter, Ukwm and GnomeShell to avoid redundant casts when
  * they enable the experimental api... */
 #include <cogl/deprecated/cogl-type-casts.h>
 
@@ -89,8 +89,8 @@
 #include <cogl/deprecated/cogl-material-compat.h>
 #include <cogl/deprecated/cogl-vertex-buffer.h>
 
-#ifdef COGL_ENABLE_MUTTER_API
-#include <cogl/cogl-mutter.h>
+#ifdef COGL_ENABLE_UKWM_API
+#include <cogl/cogl-ukwm.h>
 #endif
 
 #include <cogl/cogl-swap-chain.h>

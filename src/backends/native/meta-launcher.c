@@ -354,7 +354,7 @@ get_primary_gpu_path (const gchar *seat_name)
    *
    * https://bugzilla.gnome.org/show_bug.cgi?id=771442
    */
-  if (g_getenv ("MUTTER_ALLOW_HYBRID_GPUS") == NULL)
+  if (g_getenv ("UKWM_ALLOW_HYBRID_GPUS") == NULL)
     {
       guint num_devices;
 

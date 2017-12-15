@@ -258,7 +258,7 @@ CLUTTER_AVAILABLE_IN_1_14
 void            clutter_stage_skip_sync_delay                   (ClutterStage          *stage);
 #endif
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 gboolean clutter_stage_capture (ClutterStage          *stage,
                                 gboolean               paint,
                                 cairo_rectangle_int_t *rect,

@@ -24,7 +24,7 @@
 
 #include "backends/meta-screen-cast-stream.h"
 
-#define META_SCREEN_CAST_STREAM_DBUS_PATH "/org/gnome/Mutter/ScreenCast/Stream"
+#define META_SCREEN_CAST_STREAM_DBUS_PATH "/org/ukui/ukwm/ScreenCast/Stream"
 
 enum
 {

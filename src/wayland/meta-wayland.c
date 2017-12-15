@@ -225,7 +225,7 @@ meta_wayland_compositor_handle_event (MetaWaylandCompositor *compositor,
  * @key_vector_len: length of @key_vector
  * @offset: the key for the first evdev keycode is found at this offset in @key_vector
  *
- * This function is used to resynchronize the key state that Mutter
+ * This function is used to resynchronize the key state that Ukwm
  * is tracking with the actual keyboard state. This is useful, for example,
  * to handle changes in key state when a nested compositor doesn't
  * have focus. We need to fix up the XKB modifier tracking and deliver

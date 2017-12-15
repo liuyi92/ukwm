@@ -97,7 +97,7 @@ CLUTTER_DEPRECATED_IN_1_10_FOR(clutter_actor_get_background_color)
 void            clutter_stage_get_color         (ClutterStage       *stage,
                                                  ClutterColor       *color);
 
-CLUTTER_DEPRECATED_IN_MUTTER
+CLUTTER_DEPRECATED_IN_UKWM
 void            clutter_stage_ensure_current    (ClutterStage       *stage);
 
 G_END_DECLS

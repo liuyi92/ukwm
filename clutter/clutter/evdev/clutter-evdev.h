@@ -104,7 +104,7 @@ typedef void (*ClutterRelativeMotionFilter) (ClutterInputDevice *device,
                                              float              *dy,
                                              gpointer            user_data);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 void clutter_evdev_set_relative_motion_filter (ClutterDeviceManager       *evdev,
                                                ClutterRelativeMotionFilter filter,
                                                gpointer                    user_data);
@@ -120,7 +120,7 @@ CLUTTER_AVAILABLE_IN_1_20
 void clutter_evdev_set_keyboard_layout_index (ClutterDeviceManager *evdev,
                                               xkb_layout_index_t    idx);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 xkb_layout_index_t clutter_evdev_get_keyboard_layout_index (ClutterDeviceManager *evdev);
 
 CLUTTER_AVAILABLE_IN_1_26

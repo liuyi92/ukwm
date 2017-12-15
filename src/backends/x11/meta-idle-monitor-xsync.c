@@ -277,7 +277,7 @@ meta_idle_monitor_xsync_make_watch (MetaIdleMonitor           *monitor,
           if (meta_idle_monitor_get_idletime (monitor) > (gint64)timeout_msec)
             {
               watch->idle_source_id = g_idle_add (fire_watch_idle, watch);
-              g_source_set_name_by_id (watch->idle_source_id, "[mutter] fire_watch_idle");
+              g_source_set_name_by_id (watch->idle_source_id, "[ukwm] fire_watch_idle");
             }
         }
       else

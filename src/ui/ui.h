@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter interface for talking to GTK+ UI module */
+/* Ukwm interface for talking to GTK+ UI module */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
